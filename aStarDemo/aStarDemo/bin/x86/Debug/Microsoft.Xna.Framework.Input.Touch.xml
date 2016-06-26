@@ -24,17 +24,39 @@
     </member>
     <member name="T:Microsoft.Xna.Framework.Input.Touch.GestureType">
       <summary>Contains values that represent different multitouch gestures that can be detected by TouchPanel.ReadGesture. Reference page contains links to related code samples.</summary>
-      <param name="None">Represents no gestures.</param>
-      <param name="Tap">The user briefly touched a single point on the screen.</param>
-      <param name="DoubleTap">The user tapped the screen twice in quick succession. This always is preceded by a Tap gesture. If the time between taps is too great to be considered a DoubleTap, two Tap gestures will be generated instead.</param>
-      <param name="Hold">The user touched a single point on the screen for approximately one second. This is a single event, and not continuously generated while the user is holding the touchpoint.</param>
-      <param name="HorizontalDrag">The user touched the screen, and then performed a horizontal (left to right or right to left) gesture.</param>
-      <param name="VerticalDrag">The user touched the screen, and then performed a vertical (top to bottom or bottom to top) gesture.</param>
-      <param name="FreeDrag">The user touched the screen, and then performed a free-form drag gesture.</param>
-      <param name="Pinch">The user touched two points on the screen, and then converged or diverged them. Pinch behaves like a two-finger drag. When this gesture is enabled, it takes precedence over drag gestures while two fingers are down.</param>
-      <param name="Flick">The user performed a touch combined with a quick swipe of the screen. Flicks are positionless. The velocity of the flick can be retrieved by reading the Delta member of GestureSample.</param>
-      <param name="DragComplete">A drag gesture (VerticalDrag, HorizontalDrag, or FreeDrag) was completed. This signals only completion. No position or delta data is valid for this sample.</param>
-      <param name="PinchComplete">A pinch operation was completed. This signals only completion. No position or delta data is valid for this sample.</param>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.Input.Touch.GestureType.DoubleTap">
+      <summary>The user tapped the screen twice in quick succession. This always is preceded by a Tap gesture. If the time between taps is too great to be considered a DoubleTap, two Tap gestures will be generated instead.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.Input.Touch.GestureType.DragComplete">
+      <summary>A drag gesture (VerticalDrag, HorizontalDrag, or FreeDrag) was completed. This signals only completion. No position or delta data is valid for this sample.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.Input.Touch.GestureType.Flick">
+      <summary>The user performed a touch combined with a quick swipe of the screen. Flicks are positionless. The velocity of the flick can be retrieved by reading the Delta member of GestureSample.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.Input.Touch.GestureType.FreeDrag">
+      <summary>The user touched the screen, and then performed a free-form drag gesture.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.Input.Touch.GestureType.Hold">
+      <summary>The user touched a single point on the screen for approximately one second. This is a single event, and not continuously generated while the user is holding the touchpoint.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.Input.Touch.GestureType.HorizontalDrag">
+      <summary>The user touched the screen, and then performed a horizontal (left to right or right to left) gesture.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.Input.Touch.GestureType.None">
+      <summary>Represents no gestures.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.Input.Touch.GestureType.Pinch">
+      <summary>The user touched two points on the screen, and then converged or diverged them. Pinch behaves like a two-finger drag. When this gesture is enabled, it takes precedence over drag gestures while two fingers are down.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.Input.Touch.GestureType.PinchComplete">
+      <summary>A pinch operation was completed. This signals only completion. No position or delta data is valid for this sample.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.Input.Touch.GestureType.Tap">
+      <summary>The user briefly touched a single point on the screen.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.Input.Touch.GestureType.VerticalDrag">
+      <summary>The user touched the screen, and then performed a vertical (top to bottom or bottom to top) gesture.</summary>
     </member>
     <member name="T:Microsoft.Xna.Framework.Input.Touch.TouchCollection">
       <summary>Provides methods and properties for accessing state information for the touch screen of a touch-enabled device. Reference page contains links to related code samples.</summary>
@@ -174,10 +196,18 @@
     </member>
     <member name="T:Microsoft.Xna.Framework.Input.Touch.TouchLocationState">
       <summary>Defines the possible states of a touch location. Reference page contains links to related code samples.</summary>
-      <param name="Invalid">This touch location position is invalid. Typically, you will encounter this state when a new touch location attempts to get the previous state of itself.</param>
-      <param name="Moved">This touch location position was updated or pressed at the same position.</param>
-      <param name="Pressed">This touch location position is new.</param>
-      <param name="Released">This touch location position was released.</param>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.Input.Touch.TouchLocationState.Invalid">
+      <summary>This touch location position is invalid. Typically, you will encounter this state when a new touch location attempts to get the previous state of itself.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.Input.Touch.TouchLocationState.Moved">
+      <summary>This touch location position was updated or pressed at the same position.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.Input.Touch.TouchLocationState.Pressed">
+      <summary>This touch location position is new.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.Input.Touch.TouchLocationState.Released">
+      <summary>This touch location position was released.</summary>
     </member>
     <member name="T:Microsoft.Xna.Framework.Input.Touch.TouchPanel">
       <summary>Provides methods for retrieving touch panel device information. Reference page contains links to related code samples.</summary>

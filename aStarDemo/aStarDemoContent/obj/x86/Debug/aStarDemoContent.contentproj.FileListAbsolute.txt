@@ -1,1 +1,2 @@
 c:\users\josiah\documents\visual studio 2015\Projects\aStarDemo\aStarDemo\aStarDemoContent\obj\x86\Debug\aStarDemoContent.contentprojResolveAssemblyReference.cache
+C:\Users\VisitorDL5\Desktop\NoobyGitJosiah\JosiahRepository\aStarDemo\aStarDemo\aStarDemoContent\obj\x86\Debug\aStarDemoContent.contentprojResolveAssemblyReference.cache

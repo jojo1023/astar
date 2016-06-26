@@ -31,13 +31,27 @@ namespace aStarDemo
                 return new Vector2(HitBox.X / HitBox.Width, HitBox.Y / HitBox.Height);
             }
         }
+        private TextSprite textSprite;
 
-        public Tile(Texture2D image, Vector2 position)
+        public string Text
+        {
+            get
+            {
+                return textSprite.Text;
+            }
+            set
+            {
+                textSprite.Text = value;
+            }
+        }
+        public Tile(Texture2D image, Vector2 position, string text, SpriteFont font, Color color)
             : base(image, position, Color.White)
-        { }
+        {
+            textSprite = new TextSprite(text, this.Position + new Vector2(this.HitBox.Width / 2 - font.MeasureString(text).X / 2, this.HitBox.Height / 2 - font.MeasureString(text).Y / 2), font, color);
+        }
         public void Update(GameTime gameTime, bool moveStart, bool moveEnd)
         {
-            
+
             if (!Game1.searching)
             {
                 if (!(moveStart || moveEnd))
@@ -80,10 +94,17 @@ namespace aStarDemo
                     state = TileState.NoState;
                 }
             }
-                SetColor();
-            
+            SetColor();
+
             base.Update(gameTime);
         }
+
+        public void Draw(SpriteBatch batch)
+        {
+            base.Draw(batch);
+            textSprite.Draw(batch);
+        }
+
         private bool endMoveingStart = false;
         private bool endMoveingEnd = false;
         public bool MoveStartTile(bool moveStart, bool moveEnd)

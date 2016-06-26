@@ -98,9 +98,15 @@
     </member>
     <member name="T:Microsoft.Xna.Framework.GamerServices.ControllerSensitivity">
       <summary>Indicates how sensitive this gamer prefers controller input to be.</summary>
-      <param name="High">Highly sensitive controller input is preferred.</param>
-      <param name="Low">Below average sensitivity is preferred.</param>
-      <param name="Medium">Average controller sensitivity is preferred.</param>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.ControllerSensitivity.High">
+      <summary>Highly sensitive controller input is preferred.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.ControllerSensitivity.Low">
+      <summary>Below average sensitivity is preferred.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.ControllerSensitivity.Medium">
+      <summary>Average controller sensitivity is preferred.</summary>
     </member>
     <member name="T:Microsoft.Xna.Framework.GamerServices.FriendCollection">
       <summary>Represents the complete friends list of a local gamer.</summary>
@@ -194,9 +200,15 @@
     </member>
     <member name="T:Microsoft.Xna.Framework.GamerServices.GameDifficulty">
       <summary>Indicates how difficult this gamer likes things to be.</summary>
-      <param name="Easy">Below-average difficulty.</param>
-      <param name="Hard">Above-average difficulty.</param>
-      <param name="Normal">Average difficulty.</param>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GameDifficulty.Easy">
+      <summary>Below-average difficulty.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GameDifficulty.Hard">
+      <summary>Above-average difficulty.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GameDifficulty.Normal">
+      <summary>Average difficulty.</summary>
     </member>
     <member name="T:Microsoft.Xna.Framework.GamerServices.Gamer">
       <summary>Abstract base class for types that represent game players (profiles that have an associated gamertag). The concrete types SignedInGamer and NetworkGamer derive from this.</summary>
@@ -300,66 +312,186 @@
     </member>
     <member name="T:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode">
       <summary>Settings defining the status string that will appear when you view a friend through the Xbox LIVE Guide or on Xbox.com. Use the PresenceMode property to set this option.</summary>
-      <param name="ArcadeMode">Arcade Mode</param>
-      <param name="AtMenu">At Menu</param>
-      <param name="BattlingBoss">Battling Boss</param>
-      <param name="CampaignMode">Campaign Mode</param>
-      <param name="ChallengeMode">Challenge Mode</param>
-      <param name="ConfiguringSettings">Configuring Settings</param>
-      <param name="CoOpLevel">Co-Op: Level. Includes a numeric value specified with PresenceValue.</param>
-      <param name="CoOpStage">Co-Op: Stage. Includes a numeric value specified with PresenceValue.</param>
-      <param name="CornflowerBlue">Cornflower Blue</param>
-      <param name="CustomizingPlayer">Customizing Player</param>
-      <param name="DifficultyEasy">Difficulty: Easy</param>
-      <param name="DifficultyExtreme">Difficulty: Extreme</param>
-      <param name="DifficultyHard">Difficulty: Hard</param>
-      <param name="DifficultyMedium">Difficulty: Medium</param>
-      <param name="EditingLevel">Editing Level</param>
-      <param name="ExplorationMode">Exploration Mode</param>
-      <param name="FoundSecret">Found Secret</param>
-      <param name="FreePlay">Free Play</param>
-      <param name="GameOver">Game Over</param>
-      <param name="InCombat">In Combat</param>
-      <param name="InGameStore">In Game Store</param>
-      <param name="Level">Level. Includes a numeric value specified with PresenceValue.</param>
-      <param name="LocalCoOp">Local Co-Op</param>
-      <param name="LocalVersus">Local Versus</param>
-      <param name="LookingForGames">Looking For Games</param>
-      <param name="Losing">Losing</param>
-      <param name="Multiplayer">Multiplayer</param>
-      <param name="NearlyFinished">Nearly Finished</param>
-      <param name="None">No Presence String Displayed</param>
-      <param name="OnARoll">On a Roll</param>
-      <param name="OnlineCoOp">Online Co-Op</param>
-      <param name="OnlineVersus">Online Versus</param>
-      <param name="Outnumbered">Outnumbered</param>
-      <param name="Paused">Paused</param>
-      <param name="PlayingMinigame">Playing Minigame</param>
-      <param name="PlayingWithFriends">Playing With Friends</param>
-      <param name="PracticeMode">Practice Mode</param>
-      <param name="PuzzleMode">Puzzle Mode</param>
-      <param name="ScenarioMode">Scenario Mode</param>
-      <param name="Score">Score. Includes a numeric value specified with PresenceValue.</param>
-      <param name="ScoreIsTied">Score is Tied</param>
-      <param name="SettingUpMatch">Setting Up Match</param>
-      <param name="SinglePlayer">Single Player</param>
-      <param name="Stage">Stage. Includes a numeric value specified with PresenceValue.</param>
-      <param name="StartingGame">Starting Game</param>
-      <param name="StoryMode">Story Mode</param>
-      <param name="StuckOnAHardBit">Stuck on a Hard Bit</param>
-      <param name="SurvivalMode">Survival Mode</param>
-      <param name="TimeAttack">Time Attack</param>
-      <param name="TryingForRecord">Trying For Record</param>
-      <param name="TutorialMode">Tutorial Mode</param>
-      <param name="VersusComputer">Versus Computer</param>
-      <param name="VersusScore">Versus: Score. Includes a numeric value specified with PresenceValue.</param>
-      <param name="WaitingForPlayers">Waiting For Players</param>
-      <param name="WaitingInLobby">Waiting In Lobby</param>
-      <param name="WastingTime">Wasting Time</param>
-      <param name="WatchingCredits">Watching Credits</param>
-      <param name="WatchingCutscene">Watching Cutscene</param>
-      <param name="Winning">Winning</param>
-      <param name="WonTheGame">Won the Game</param>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.ArcadeMode">
+      <summary>Arcade Mode</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.AtMenu">
+      <summary>At Menu</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.BattlingBoss">
+      <summary>Battling Boss</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.CampaignMode">
+      <summary>Campaign Mode</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.ChallengeMode">
+      <summary>Challenge Mode</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.ConfiguringSettings">
+      <summary>Configuring Settings</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.CoOpLevel">
+      <summary>Co-Op: Level. Includes a numeric value specified with PresenceValue.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.CoOpStage">
+      <summary>Co-Op: Stage. Includes a numeric value specified with PresenceValue.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.CornflowerBlue">
+      <summary>Cornflower Blue</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.CustomizingPlayer">
+      <summary>Customizing Player</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.DifficultyEasy">
+      <summary>Difficulty: Easy</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.DifficultyExtreme">
+      <summary>Difficulty: Extreme</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.DifficultyHard">
+      <summary>Difficulty: Hard</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.DifficultyMedium">
+      <summary>Difficulty: Medium</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.EditingLevel">
+      <summary>Editing Level</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.ExplorationMode">
+      <summary>Exploration Mode</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.FoundSecret">
+      <summary>Found Secret</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.FreePlay">
+      <summary>Free Play</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.GameOver">
+      <summary>Game Over</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.InCombat">
+      <summary>In Combat</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.InGameStore">
+      <summary>In Game Store</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.Level">
+      <summary>Level. Includes a numeric value specified with PresenceValue.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.LocalCoOp">
+      <summary>Local Co-Op</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.LocalVersus">
+      <summary>Local Versus</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.LookingForGames">
+      <summary>Looking For Games</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.Losing">
+      <summary>Losing</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.Multiplayer">
+      <summary>Multiplayer</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.NearlyFinished">
+      <summary>Nearly Finished</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.None">
+      <summary>No Presence String Displayed</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.OnARoll">
+      <summary>On a Roll</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.OnlineCoOp">
+      <summary>Online Co-Op</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.OnlineVersus">
+      <summary>Online Versus</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.Outnumbered">
+      <summary>Outnumbered</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.Paused">
+      <summary>Paused</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.PlayingMinigame">
+      <summary>Playing Minigame</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.PlayingWithFriends">
+      <summary>Playing With Friends</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.PracticeMode">
+      <summary>Practice Mode</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.PuzzleMode">
+      <summary>Puzzle Mode</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.ScenarioMode">
+      <summary>Scenario Mode</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.Score">
+      <summary>Score. Includes a numeric value specified with PresenceValue.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.ScoreIsTied">
+      <summary>Score is Tied</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.SettingUpMatch">
+      <summary>Setting Up Match</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.SinglePlayer">
+      <summary>Single Player</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.Stage">
+      <summary>Stage. Includes a numeric value specified with PresenceValue.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.StartingGame">
+      <summary>Starting Game</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.StoryMode">
+      <summary>Story Mode</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.StuckOnAHardBit">
+      <summary>Stuck on a Hard Bit</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.SurvivalMode">
+      <summary>Survival Mode</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.TimeAttack">
+      <summary>Time Attack</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.TryingForRecord">
+      <summary>Trying For Record</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.TutorialMode">
+      <summary>Tutorial Mode</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.VersusComputer">
+      <summary>Versus Computer</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.VersusScore">
+      <summary>Versus: Score. Includes a numeric value specified with PresenceValue.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.WaitingForPlayers">
+      <summary>Waiting For Players</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.WaitingInLobby">
+      <summary>Waiting In Lobby</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.WastingTime">
+      <summary>Wasting Time</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.WatchingCredits">
+      <summary>Watching Credits</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.WatchingCutscene">
+      <summary>Watching Cutscene</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.Winning">
+      <summary>Winning</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPresenceMode.WonTheGame">
+      <summary>Won the Game</summary>
     </member>
     <member name="T:Microsoft.Xna.Framework.GamerServices.GamerPrivilegeException">
       <summary>Thrown if a gamer services or multiplayer API is called without a valid, signed-in profile.</summary>
@@ -407,9 +539,15 @@
     </member>
     <member name="T:Microsoft.Xna.Framework.GamerServices.GamerPrivilegeSetting">
       <summary>Describes the conditions in which a privilege is available.</summary>
-      <param name="Blocked">This privilege is not available for the current gamer profile.</param>
-      <param name="Everyone">This privilege is available for the current gamer profile.</param>
-      <param name="FriendsOnly">This privilege is only available for friends of the current gamer profile. Use the IsFriend method to check which gamers are friends.</param>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPrivilegeSetting.Blocked">
+      <summary>This privilege is not available for the current gamer profile.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPrivilegeSetting.Everyone">
+      <summary>This privilege is available for the current gamer profile.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerPrivilegeSetting.FriendsOnly">
+      <summary>This privilege is only available for friends of the current gamer profile. Use the IsFriend method to check which gamers are friends.</summary>
     </member>
     <member name="T:Microsoft.Xna.Framework.GamerServices.GamerProfile">
       <summary>Profile settings describing information about a gamer such as the gamer's motto, reputation, and gamer picture. This data is accessible for both locally signed in profiles and remote gamers that you are playing with in a multiplayer session.</summary>
@@ -486,11 +624,21 @@
     </member>
     <member name="T:Microsoft.Xna.Framework.GamerServices.GamerZone">
       <summary>This style of social gaming preferred by this Xbox LIVE member.</summary>
-      <param name="Family">Family-friendly game play.</param>
-      <param name="Pro">Competitive game play.</param>
-      <param name="Recreation">Non-competitive game play.</param>
-      <param name="Underground">Alternative approach to game play.</param>
-      <param name="Unknown">Unknown.</param>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerZone.Family">
+      <summary>Family-friendly game play.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerZone.Pro">
+      <summary>Competitive game play.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerZone.Recreation">
+      <summary>Non-competitive game play.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerZone.Underground">
+      <summary>Alternative approach to game play.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.GamerZone.Unknown">
+      <summary>Unknown.</summary>
     </member>
     <member name="T:Microsoft.Xna.Framework.GamerServices.GameUpdateRequiredException">
       <summary>The exception thrown when a game (title) update is required in order to use Xbox LIVE.</summary>
@@ -595,9 +743,9 @@
       <param name="player">Index of the player making the request. The profile specified by player must be signed in when calling this function.</param>
     </member>
     <member name="M:Microsoft.Xna.Framework.GamerServices.Guide.ShowGameInvite(Microsoft.Xna.Framework.PlayerIndex,System.Collections.Generic.IEnumerable{Microsoft.Xna.Framework.GamerServices.Gamer})">
-      <summary>Displays the game invitation user interface, taking a session ID.</summary>
+      <summary>Displays the game invitation user interface, taking the sender's player index and an optional list of recipient gamers.</summary>
       <param name="player">Index of the player initiating the invitation.</param>
-      <param name="recipients">List of gamers who receive the invitation. If null, the Guide prompts the player to specify a recipient.</param>
+      <param name="recipients">List of gamers who receive the invitation. If null, the Guide prompts the player for a recipient gamer.</param>
     </member>
     <member name="M:Microsoft.Xna.Framework.GamerServices.Guide.ShowGameInvite(System.String)">
       <summary>Displays the game invitation user interface, taking a session ID.</summary>
@@ -679,13 +827,13 @@
       <summary>Class representing a single row of a leaderboard, holding all the information a specific gamer has uploaded to the board.</summary>
     </member>
     <member name="P:Microsoft.Xna.Framework.GamerServices.LeaderboardEntry.Columns">
-      <summary>Provides access to the columns for this leaderboard entry.</summary>
+      <summary>Provides access to the columns of key/value data associated with this leaderboard entry. Reference page contains links to related code samples.</summary>
     </member>
     <member name="P:Microsoft.Xna.Framework.GamerServices.LeaderboardEntry.Gamer">
-      <summary>Provides access to gamer information for this leaderboard entry.</summary>
+      <summary>Provides access to gamer information for this leaderboard entry. Reference page contains links to related code samples.</summary>
     </member>
     <member name="P:Microsoft.Xna.Framework.GamerServices.LeaderboardEntry.Rating">
-      <summary>Provides access to the rating associated with this leaderboard entry.</summary>
+      <summary>Provides access to the rating associated with this leaderboard entry. Reference page contains links to related code samples.</summary>
     </member>
     <member name="T:Microsoft.Xna.Framework.GamerServices.LeaderboardIdentity">
       <summary>Contains leaderboard identity information for a particular leaderboard.</summary>
@@ -707,17 +855,33 @@
     </member>
     <member name="T:Microsoft.Xna.Framework.GamerServices.LeaderboardKey">
       <summary>Values used with LeaderboardIdentity.Create to select which leaderboard to access.</summary>
-      <param name="BestScoreLifeTime">Best lifetime score for this player and his or her Xbox LIVE friends.</param>
-      <param name="BestScoreRecent">Best recent scores for this player and his or her Xbox LIVE friends.</param>
-      <param name="BestTimeLifeTime">Best lifetime times for this player and his or her Xbox LIVE friends.</param>
-      <param name="BestTimeRecent">Best recent times for this player and his or her Xbox LIVE friends.</param>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.LeaderboardKey.BestScoreLifeTime">
+      <summary>Best lifetime score for this player and his or her Xbox LIVE friends.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.LeaderboardKey.BestScoreRecent">
+      <summary>Best recent scores for this player and his or her Xbox LIVE friends.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.LeaderboardKey.BestTimeLifeTime">
+      <summary>Best lifetime times for this player and his or her Xbox LIVE friends.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.LeaderboardKey.BestTimeRecent">
+      <summary>Best recent times for this player and his or her Xbox LIVE friends.</summary>
     </member>
     <member name="T:Microsoft.Xna.Framework.GamerServices.LeaderboardOutcome">
       <summary>Values used to provide an outcome for a player's leaderboard entry.</summary>
-      <param name="Loss">Player lost the match.</param>
-      <param name="None">No result reported.</param>
-      <param name="Tie">Match resulted in a tie: no player won.</param>
-      <param name="Win">Player won the match.</param>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.LeaderboardOutcome.Loss">
+      <summary>Player lost the match.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.LeaderboardOutcome.None">
+      <summary>No result reported.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.LeaderboardOutcome.Tie">
+      <summary>Match resulted in a tie: no player won.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.LeaderboardOutcome.Win">
+      <summary>Player won the match.</summary>
     </member>
     <member name="T:Microsoft.Xna.Framework.GamerServices.LeaderboardReader">
       <summary>Reads data from leaderboards.</summary>
@@ -827,10 +991,18 @@
     </member>
     <member name="T:Microsoft.Xna.Framework.GamerServices.MessageBoxIcon">
       <summary>Defines the different icons for a message box.</summary>
-      <param name="Alert">Displays the Alert icon.</param>
-      <param name="Error">Displays the Error icon.</param>
-      <param name="None">No icon is displayed.</param>
-      <param name="Warning">Displays the Warning icon.</param>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.MessageBoxIcon.Alert">
+      <summary>Displays the Alert icon.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.MessageBoxIcon.Error">
+      <summary>Displays the Error icon.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.MessageBoxIcon.None">
+      <summary>No icon is displayed.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.MessageBoxIcon.Warning">
+      <summary>Displays the Warning icon.</summary>
     </member>
     <member name="T:Microsoft.Xna.Framework.GamerServices.NetworkException">
       <summary>Thrown if there is a network communication failure.</summary>
@@ -874,15 +1046,33 @@
     </member>
     <member name="T:Microsoft.Xna.Framework.GamerServices.NotificationPosition">
       <summary />
-      <param name="BottomCenter">Positions the message box at the bottom of the screen and centered.</param>
-      <param name="BottomLeft">Positions the message box at the bottom-left of the screen.</param>
-      <param name="BottomRight">Positions the message box at the bottom-right of the screen.</param>
-      <param name="Center">Positions the message box at the center of the screen.</param>
-      <param name="CenterLeft">Positions the message box at the center of the screen and left-aligned.</param>
-      <param name="CenterRight">Positions the message box at the center of the screen and right-aligned.</param>
-      <param name="TopCenter">Positions the message box at the top of the screen and centered.</param>
-      <param name="TopLeft">Positions the message box at the top-left of the screen.</param>
-      <param name="TopRight">Positions the message box at the top-right of the screen.</param>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.NotificationPosition.BottomCenter">
+      <summary>Positions the message box at the bottom of the screen and centered.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.NotificationPosition.BottomLeft">
+      <summary>Positions the message box at the bottom-left of the screen.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.NotificationPosition.BottomRight">
+      <summary>Positions the message box at the bottom-right of the screen.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.NotificationPosition.Center">
+      <summary>Positions the message box at the center of the screen.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.NotificationPosition.CenterLeft">
+      <summary>Positions the message box at the center of the screen and left-aligned.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.NotificationPosition.CenterRight">
+      <summary>Positions the message box at the center of the screen and right-aligned.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.NotificationPosition.TopCenter">
+      <summary>Positions the message box at the top of the screen and centered.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.NotificationPosition.TopLeft">
+      <summary>Positions the message box at the top-left of the screen.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.NotificationPosition.TopRight">
+      <summary>Positions the message box at the top-right of the screen.</summary>
     </member>
     <member name="T:Microsoft.Xna.Framework.GamerServices.PropertyDictionary">
       <summary>Holds a set of properties used to define presence states or leaderboard column values.</summary>
@@ -1010,9 +1200,15 @@
     </member>
     <member name="T:Microsoft.Xna.Framework.GamerServices.RacingCameraAngle">
       <summary>Indicates which camera angle this gamer prefers to use in racing games.</summary>
-      <param name="Back">Traditional third-person camera view from behind the car.</param>
-      <param name="Front">Camera view from in front of the car. The car itself is not visible.</param>
-      <param name="Inside">Camera view from inside the car, looking through the windscreen.</param>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.RacingCameraAngle.Back">
+      <summary>Traditional third-person camera view from behind the car.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.RacingCameraAngle.Front">
+      <summary>Camera view from in front of the car. The car itself is not visible.</summary>
+    </member>
+    <member name="F:Microsoft.Xna.Framework.GamerServices.RacingCameraAngle.Inside">
+      <summary>Camera view from inside the car, looking through the windscreen.</summary>
     </member>
     <member name="T:Microsoft.Xna.Framework.GamerServices.SignedInEventArgs">
       <summary />
@@ -1067,8 +1263,8 @@
       <summary>Determines if the gamer is the guest of an Xbox LIVE–enabled profile.</summary>
     </member>
     <member name="M:Microsoft.Xna.Framework.GamerServices.SignedInGamer.IsHeadset(Microsoft.Xna.Framework.Audio.Microphone)">
-      <summary>Determines if the microphone associated with this signed-in gamer is a headset.</summary>
-      <param name="microphone">The microphone associated with this signed-in gamer.</param>
+      <summary>Determines if the passed microphone is a headset associated with this signed-in gamer. Use this method to determine if a specific microphone is a gamer-bound headset.</summary>
+      <param name="microphone">The microphone to check against this signed-in gamer.</param>
     </member>
     <member name="P:Microsoft.Xna.Framework.GamerServices.SignedInGamer.IsSignedInToLive">
       <summary>Determines if the gamer has an Xbox LIVE–enabled profile.</summary>

@@ -48,7 +48,7 @@ namespace aStarDemo
             {
                 for (int ii = 0; ii < tiles.GetLength(1); ii++)
                 {
-                    tiles[i, ii] = new Tile(tileImage, new Vector2(i*tileImage.Width, ii*tileImage.Height));
+                    tiles[i, ii] = new Tile(tileImage, new Vector2(i*tileImage.Width, ii*tileImage.Height), "", Content.Load<SpriteFont>("SpriteFont1"), Color.Black);
                 }
             }
 
@@ -68,6 +68,7 @@ namespace aStarDemo
 
         protected override void UnloadContent()
         {
+            
         }
         TimeSpan elapsedTime = new TimeSpan(0, 0, 0);
         protected override void Update(GameTime gameTime)

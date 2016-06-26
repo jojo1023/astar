@@ -16,3 +16,22 @@ c:\users\josiah\documents\visual studio 2015\Projects\aStarDemo\aStarDemo\aStarD
 c:\users\josiah\documents\visual studio 2015\Projects\aStarDemo\aStarDemo\aStarDemo\obj\x86\Debug\aStarDemo.exe
 c:\users\josiah\documents\visual studio 2015\Projects\aStarDemo\aStarDemo\aStarDemo\obj\x86\Debug\aStarDemo.pdb
 C:\Users\Josiah\Documents\Visual Studio 2015\Projects\aStarDemo\aStarDemo\aStarDemo\bin\x86\Debug\Content\testImage.xnb
+C:\Users\VisitorDL5\Desktop\NoobyGitJosiah\JosiahRepository\aStarDemo\aStarDemo\aStarDemo\bin\x86\Debug\Content\tile.xnb
+C:\Users\VisitorDL5\Desktop\NoobyGitJosiah\JosiahRepository\aStarDemo\aStarDemo\aStarDemo\bin\x86\Debug\Content\testImage.xnb
+C:\Users\VisitorDL5\Desktop\NoobyGitJosiah\JosiahRepository\aStarDemo\aStarDemo\aStarDemo\bin\x86\Debug\aStarDemo.exe
+C:\Users\VisitorDL5\Desktop\NoobyGitJosiah\JosiahRepository\aStarDemo\aStarDemo\aStarDemo\bin\x86\Debug\aStarDemo.pdb
+C:\Users\VisitorDL5\Desktop\NoobyGitJosiah\JosiahRepository\aStarDemo\aStarDemo\aStarDemo\bin\x86\Debug\Microsoft.Xna.Framework.dll
+C:\Users\VisitorDL5\Desktop\NoobyGitJosiah\JosiahRepository\aStarDemo\aStarDemo\aStarDemo\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\VisitorDL5\Desktop\NoobyGitJosiah\JosiahRepository\aStarDemo\aStarDemo\aStarDemo\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+C:\Users\VisitorDL5\Desktop\NoobyGitJosiah\JosiahRepository\aStarDemo\aStarDemo\aStarDemo\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\VisitorDL5\Desktop\NoobyGitJosiah\JosiahRepository\aStarDemo\aStarDemo\aStarDemo\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+C:\Users\VisitorDL5\Desktop\NoobyGitJosiah\JosiahRepository\aStarDemo\aStarDemo\aStarDemo\bin\x86\Debug\Microsoft.Xna.Framework.xml
+C:\Users\VisitorDL5\Desktop\NoobyGitJosiah\JosiahRepository\aStarDemo\aStarDemo\aStarDemo\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\VisitorDL5\Desktop\NoobyGitJosiah\JosiahRepository\aStarDemo\aStarDemo\aStarDemo\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+C:\Users\VisitorDL5\Desktop\NoobyGitJosiah\JosiahRepository\aStarDemo\aStarDemo\aStarDemo\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+C:\Users\VisitorDL5\Desktop\NoobyGitJosiah\JosiahRepository\aStarDemo\aStarDemo\aStarDemo\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+C:\Users\VisitorDL5\Desktop\NoobyGitJosiah\JosiahRepository\aStarDemo\aStarDemo\aStarDemo\obj\x86\Debug\aStarDemo.csprojResolveAssemblyReference.cache
+C:\Users\VisitorDL5\Desktop\NoobyGitJosiah\JosiahRepository\aStarDemo\aStarDemo\aStarDemo\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\VisitorDL5\Desktop\NoobyGitJosiah\JosiahRepository\aStarDemo\aStarDemo\aStarDemo\obj\x86\Debug\aStarDemo.exe
+C:\Users\VisitorDL5\Desktop\NoobyGitJosiah\JosiahRepository\aStarDemo\aStarDemo\aStarDemo\obj\x86\Debug\aStarDemo.pdb
+C:\Users\VisitorDL5\Desktop\NoobyGitJosiah\JosiahRepository\aStarDemo\aStarDemo\aStarDemo\bin\x86\Debug\Content\SpriteFont1.xnb

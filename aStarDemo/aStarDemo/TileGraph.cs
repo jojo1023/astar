@@ -78,8 +78,10 @@ namespace aStarDemo
             //Game1.searching = false;
         }
         private Queue<Tile> queue;
+        private int bfsCount = 0;
         public void bfsSearch(Tile[,] tiles)
         {
+            bfsCount++;
             if (queue.Count > 0)
             {
                 Tile current = queue.Dequeue();
@@ -90,6 +92,7 @@ namespace aStarDemo
                     {
                         queue.Enqueue(currentNeighbors[i]);
                         currentNeighbors[i].State = TileState.SearchedTile;
+                        currentNeighbors[i].Text = bfsCount.ToString();
                     }
                     
                 }
