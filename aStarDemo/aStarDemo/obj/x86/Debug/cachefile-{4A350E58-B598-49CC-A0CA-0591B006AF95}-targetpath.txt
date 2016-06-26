@@ -1,0 +1,2 @@
+Content\tile.xnb
+Content\testImage.xnb
